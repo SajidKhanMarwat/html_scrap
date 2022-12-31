@@ -1,4 +1,31 @@
 ﻿<Properties StartupConfiguration="{C763629D-ED38-43E3-90FE-ECBF35C63376}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="html_scrap/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="html_scrap/Controllers/HomeController.cs" Line="17" Column="26" />
+      <File FileName="html_scrap/Views/Home/Index.cshtml" Line="16" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="html_scrap" expanded="True">
+            <Node name="html_scrap" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.html__scrap FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.html__scrap PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

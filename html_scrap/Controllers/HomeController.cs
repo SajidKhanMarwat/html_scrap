@@ -19,7 +19,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        string url = "https://www.w3schools.com/about/default.asp";
+        string url = "https://www.w3schools.com/";
         var response = CallURL(url).Result;
         var linkList = ParseHTML(response);
 
@@ -42,18 +42,31 @@ public class HomeController : Controller
         htmlDoc.LoadHtml(html);
 
 
-        var programmerLinks = htmlDoc.DocumentNode.Descendants("li")
-        .Where(node => !node.GetAttributeValue("class", "").Contains("tocsection"))
-        .ToList();
+        //var programmerLinks = htmlDoc.DocumentNode.Descendants("li")
+        //.Where(node => !node.GetAttributeValue("class", "").Contains("tocsection"))
+        //.ToList();
+
+        var extractedURLs = htmlDoc.DocumentNode.SelectNodes("//a").ToList();
 
 
         List<string> _Link = new List<string>();
 
-        foreach (var link in programmerLinks)
+
+        for (int i = 0; i < extractedURLs.Count; i++)
         {
-            if (link.FirstChild.Attributes.Count > 0)
-            { _Link.Add("https://www.w3schools.com" + link.FirstChild.Attributes[0].Value); }
+            _Link.Add(extractedURLs[i].FirstChild.OuterHtml);
+                    //.FirstChild.Attributes[0].Value);
         }
+
+
+        //foreach (var link in extractedURLs)
+        //{
+            //if (link.FirstChild.Attributes.Count > 0)
+            //{
+            //_Link.Add("https://www.w3schools.com" + link.FirstChild.Attributes[0].Value);
+
+            //}
+        //}
 
         return _Link;
 

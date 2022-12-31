@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sajidmarwat/Projects/html_scrap/html_scrap/html_scrap.csproj": {}
+    "/Users/sajidmarwat/Documents/GitHub/html_scrap/html_scrap/html_scrap.csproj": {}
   },
   "projects": {
-    "/Users/sajidmarwat/Projects/html_scrap/html_scrap/html_scrap.csproj": {
+    "/Users/sajidmarwat/Documents/GitHub/html_scrap/html_scrap/html_scrap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sajidmarwat/Projects/html_scrap/html_scrap/html_scrap.csproj",
+        "projectUniqueName": "/Users/sajidmarwat/Documents/GitHub/html_scrap/html_scrap/html_scrap.csproj",
         "projectName": "html_scrap",
-        "projectPath": "/Users/sajidmarwat/Projects/html_scrap/html_scrap/html_scrap.csproj",
+        "projectPath": "/Users/sajidmarwat/Documents/GitHub/html_scrap/html_scrap/html_scrap.csproj",
         "packagesPath": "/Users/sajidmarwat/.nuget/packages/",
-        "outputPath": "/Users/sajidmarwat/Projects/html_scrap/html_scrap/obj/",
+        "outputPath": "/Users/sajidmarwat/Documents/GitHub/html_scrap/html_scrap/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sajidmarwat/.nuget/NuGet/NuGet.Config"
